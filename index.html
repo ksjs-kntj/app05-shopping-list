@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>app05-shopping-list</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>買い物リスト 🛒</h1>
+
+    <form id="form" class="row" autocomplete="off">
+      <input id="itemInput" type="text" placeholder="例: 牛乳">
+      <button id="addBtn" type="submit">追加</button>
+    </form>
+
+    <section class="lists">
+      <div class="list">
+        <h2>これから買う</h2>
+        <ul id="todoList" class="items"></ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
